@@ -267,8 +267,8 @@ body::before {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 55px;
-        height: 55px;
+        width: 45px;
+        height: 45px;
         background: transparent;
         border: none;
         box-shadow: none;
@@ -293,8 +293,8 @@ body::before {
     }
     
     .socials-mobile .social-icon {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         object-fit: contain;
         position: relative;
         z-index: 1;
