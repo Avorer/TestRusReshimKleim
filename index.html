@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Режем Клеим | Студия винилового декора</title>
+    <meta name="description" content="Студия кастомного декора, виниловых и печатных наклеек. Голографические стикеры, оклейка техники, мерч и кастомные проекты. Казань.">
+    <meta name="keywords" content="виниловые наклейки, стикеры, голография, кастом, оклейка авто, Казань, декор, мерч">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/logo.png">
+</head>
+<body>
+    <!-- Фоновые эффекты -->
+    <div class="bg-overlay"></div>
+    <div class="bg-scanlines"></div>
+    <div class="bg-vignette"></div>
+    
+    <!-- Неоновые свечения -->
+    <div class="neon-glow glow-pink"></div>
+    <div class="neon-glow glow-purple"></div>
+    <div class="neon-glow glow-cyan"></div>
+
+    <!-- Шапка -->
+    <header class="header">
+        <div class="header-inner">
+            <!-- Логотип ПК -->
+            <a href="#" class="logo logo-pc">
+                <img src="img/logo.png" alt="Режем Клеим" class="logo-img">
+            </a>
+            
+            <!-- Соцсети Mobile (левая часть) -->
+            <div class="socials-mobile">
+                <a href="https://t.me/yourtelegram" target="_blank" class="social-btn social-tg" title="Telegram">
+                    <img src="img/TG.png" alt="Telegram" class="social-icon">
+                </a>
+                <a href="https://www.instagram.com/rezhem.kleim" target="_blank" class="social-btn social-inst" title="Instagram">
+                    <img src="img/instagramm.png" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://vk.com/yourvk" target="_blank" class="social-btn social-vk" title="VK">
+                    <img src="img/VK.png" alt="VK" class="social-icon">
+                </a>
+                <a href="https://ozon.ru/seller/yourshop" target="_blank" class="social-btn social-ozon" title="Ozon">
+                    <img src="img/ozon.png" alt="Ozon" class="social-icon">
+                </a>
+                <a href="https://wildberries.ru/seller/yourshop" target="_blank" class="social-btn social-wb" title="Wildberries">
+                    <img src="img/WB.png" alt="Wildberries" class="social-icon">
+                </a>
+            </div>
+            
+            <!-- ПК навигация -->
+            <nav class="nav-pc">
+                <a href="#about" class="nav-link" data-target="about">
+                    <span class="nav-link-text">О НАС</span>
+                    <span class="nav-link-line"></span>
+                </a>
+                <a href="#services" class="nav-link" data-target="services">
+                    <span class="nav-link-text">УСЛУГИ</span>
+                    <span class="nav-link-line"></span>
+                </a>
+                <a href="#marketplaces" class="nav-link" data-target="marketplaces">
+                    <span class="nav-link-text">МАГАЗИН</span>
+                    <span class="nav-link-line"></span>
+                </a>
+                <a href="#contacts" class="nav-link" data-target="contacts">
+                    <span class="nav-link-text">КОНТАКТЫ</span>
+                    <span class="nav-link-line"></span>
+                </a>
+            </nav>
+
+            <!-- Соцсети ПК -->
+            <div class="socials-pc">
+                <a href="https://t.me/yourtelegram" target="_blank" class="social-btn social-tg" title="Telegram">
+                    <img src="img/TG.png" alt="Telegram" class="social-icon">
+                </a>
+                <a href="https://www.instagram.com/rezhem.kleim" target="_blank" class="social-btn social-inst" title="Instagram">
+                    <img src="img/instagramm.png" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://vk.com/yourvk" target="_blank" class="social-btn social-vk" title="VK">
+                    <img src="img/VK.png" alt="VK" class="social-icon">
+                </a>
+                <a href="https://ozon.ru/seller/yourshop" target="_blank" class="social-btn social-ozon" title="Ozon">
+                    <img src="img/ozon.png" alt="Ozon" class="social-icon">
+                </a>
+                <a href="https://wildberries.ru/seller/yourshop" target="_blank" class="social-btn social-wb" title="Wildberries">
+                    <img src="img/WB.png" alt="Wildberries" class="social-icon">
+                </a>
+            </div>
+
+            <!-- Мобильное меню кнопка -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Меню">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+
+        <!-- Мобильное меню -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu-content">
+                <nav class="mobile-nav">
+                    <a href="#about" class="mobile-nav-link" data-target="about">
+                        <span class="mobile-nav-icon">ℹ️</span>
+                        <span class="mobile-nav-text">О НАС</span>
+                    </a>
+                    <a href="#services" class="mobile-nav-link" data-target="services">
+                        <span class="mobile-nav-icon">⚡</span>
+                        <span class="mobile-nav-text">УСЛУГИ</span>
+                    </a>
+                    <a href="#marketplaces" class="mobile-nav-link" data-target="marketplaces">
+                        <span class="mobile-nav-icon">🛒</span>
+                        <span class="mobile-nav-text">МАГАЗИН</span>
+                    </a>
+                    <a href="#contacts" class="mobile-nav-link" data-target="contacts">
+                        <span class="mobile-nav-icon">📞</span>
+                        <span class="mobile-nav-text">КОНТАКТЫ</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main class="main">
+        <!-- Hero секция -->
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <!-- Логотип Mobile (над бейджем) -->
+                <div class="hero-logo-mobile">
+                    <img src="img/logo.png" alt="Режем Клеим" class="hero-logo-img">
+                </div>
+                
+                <div class="hero-badge">
+                    <span class="badge-text">🔥 CUSTOM VINYL STUDIO</span>
+                    <span class="badge-jp">切貼工房</span>
+                </div>
+                
+                <p class="hero-subtitle">Студия кастомного декора и виниловых наклеек</p>
+                
+                <div class="hero-tags">
+                    <span class="tag">ГОЛОГРАФИЯ</span>
+                    <span class="tag">КАСТОМ</span>
+                    <span class="tag">ЭФФЕКТЫ</span>
+                </div>
+                
+                <div class="hero-actions">
+                    <a href="#services" class="btn btn-primary">
+                        <span class="btn-content">
+                            <span class="btn-text">СМОТРЕТЬ УСЛУГИ</span>
+                            <span class="btn-arrow">→</span>
+                        </span>
+                    </a>
+                    <a href="#contacts" class="btn btn-secondary">
+                        <span class="btn-content">
+                            <span class="btn-text">СВЯЗАТЬСЯ</span>
+                            <span class="btn-arrow">→</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-decoration">
+                <div class="deco-line deco-line-1"></div>
+                <div class="deco-line deco-line-2"></div>
+                <div class="deco-text">EST. 2026</div>
+                <div class="deco-grid"></div>
+            </div>
+        </section>
+
+        <!-- О нас -->
+        <section class="section section-about" id="about">
+            <div class="section-header">
+                <span class="section-label">ABOUT US</span>
+                <h2 class="section-title">О СТУДИИ</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="about-card">
+                <div class="about-content">
+                    <p class="about-text">
+                        <strong class="highlight-brand">«Режем Клеим»</strong> — студия кастомного декора, 
+                        виниловых и печатных наклеек. Мы создаём яркие визуальные решения для автомобилей, 
+                        техники, бизнеса и творчества.
+                    </p>
+                    <p class="about-text">
+                        Наша фишка — <span class="highlight">голографические материалы</span>, 
+                        <span class="highlight">нестандартные эффекты</span> и внимание к деталям. 
+                        Делаем как единичные кастомные проекты, так и полноценное оформление для брендов и мероприятий.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">⚡</div>
+                            <div class="feature-text">КАСТОМНЫЕ ПРОЕКТЫ</div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">✨</div>
+                            <div class="feature-text">ГОЛОГРАФИЯ & ЭФФЕКТЫ</div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🎯</div>
+                            <div class="feature-text">ВНИМАНИЕ К ДЕТАЛЯМ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Услуги -->
+        <section class="section section-services" id="services">
+            <div class="section-header">
+                <span class="section-label">SERVICES</span>
+                <h2 class="section-title">НАШИ УСЛУГИ</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">🏎️</div>
+                        <h3 class="service-title">Виниловые наклейки</h3>
+                        <p class="service-desc">Печатные и плоттерные наклейки для авто и мото техники</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">🌈</div>
+                        <h3 class="service-title">Голографические стикеры</h3>
+                        <p class="service-desc">Стикерпаки и отдельные стикеры с голографическим эффектом</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">📱</div>
+                        <h3 class="service-title">Оклейка техники</h3>
+                        <p class="service-desc">Декор гаджетов, аксессуаров и различных поверхностей</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">📦</div>
+                        <h3 class="service-title">Кастомные боксы</h3>
+                        <p class="service-desc">Упаковка и боксы с индивидуальным дизайном</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">👕</div>
+                        <h3 class="service-title">Одежда и мерч</h3>
+                        <p class="service-desc">Мерч с уникальным дизайном под ваш бренд</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-icon">🏍️</div>
+                        <h3 class="service-title">Автокастом</h3>
+                        <p class="service-desc">Оформление шлемов и автотематика</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Маркетплейсы -->
+        <section class="section section-marketplaces" id="marketplaces">
+            <div class="section-header">
+                <span class="section-label">SHOP</span>
+                <h2 class="section-title">МАРКЕТПЛЕЙСЫ</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="marketplaces-grid">
+                <a href="https://ozon.ru/seller/yourshop" target="_blank" class="marketplace-card marketplace-ozon">
+                    <div class="marketplace-card-inner">
+                        <div class="marketplace-glow"></div>
+                        <span class="marketplace-name">OZON</span>
+                        <span class="marketplace-desc">Перейти в магазин</span>
+                        <span class="marketplace-arrow">→</span>
+                    </div>
+                </a>
+                
+                <a href="https://wildberries.ru/seller/yourshop" target="_blank" class="marketplace-card marketplace-wb">
+                    <div class="marketplace-card-inner">
+                        <div class="marketplace-glow"></div>
+                        <span class="marketplace-name">WILDBERRIES</span>
+                        <span class="marketplace-desc">Перейти в магазин</span>
+                        <span class="marketplace-arrow">→</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section class="section section-contacts" id="contacts">
+            <div class="section-header">
+                <span class="section-label">CONTACT</span>
+                <h2 class="section-title">КОНТАКТЫ</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="contacts-card">
+                <div class="contacts-grid">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-info">
+                            <span class="contact-label">АДРЕС</span>
+                            <span class="contact-value">г. Казань, ул. Ибрагимова 32/20</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-info">
+                            <span class="contact-label">ТЕЛЕФОН</span>
+                            <a href="tel:+79997599992" class="contact-value contact-link">+7 999 759-99-92</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">💬</div>
+                        <div class="contact-info">
+                            <span class="contact-label">СОЦСЕТИ</span>
+                            <div class="contact-socials-mini">
+                                <a href="https://t.me/yourtelegram" target="_blank" class="contact-social-mini">TG</a>
+                                <a href="https://www.instagram.com/rezhem.kleim" target="_blank" class="contact-social-mini">INST</a>
+                                <a href="https://vk.com/yourvk" target="_blank" class="contact-social-mini">VK</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="img/logo.png" alt="Режем Клеим" class="footer-logo-img">
+            </div>
+            <p class="footer-slogan">Стиль • Креатив • Проекты, которые цепляют взгляд ❤️‍🔥</p>
+            <p class="footer-copyright">© 2026 РЕЖЕМ КЛЕИМ. ВСЕ ПРАВА ЗАЩИЩЕНЫ.</p>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
