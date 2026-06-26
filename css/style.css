@@ -293,8 +293,8 @@ body::before {
     }
     
     .socials-mobile .social-icon {
-        width: 70px;
-        height: 70px;
+        width: 65px;
+        height: 65px;
         object-fit: contain;
         position: relative;
         z-index: 1;
